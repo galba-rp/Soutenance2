@@ -26,55 +26,55 @@ $current=basename($path);
 </head>
 
 <body class="conatiner-fluid">
-    <header>
-        <div id="top-nav" class="<?php if($page=='accueil'){echo 'd-none d-md-block';} else{echo 'd-none';}?> ">
-            <div class="container">
-                <ul class="nav d-none d-sm-flex justify-content-end ">
-                    <li class="nav-item">
-                        <span>|</span>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <span>|</span>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tel:00000000000"><i class="fas fa-phone-alt"></i> 02 57 87 71 85</a>
-                    </li>
-                    <li class="nav-item" data-toggle="modal" data-target="#myModal">
-                        <span>| <i class="fas fa-scroll"></i> Suivre mon projet |</span>
-                    </li>
-                </ul>
-            </div>
-            <!-- The Modal -->
-            <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <i class="far fa-times-circle m-2 text-right" data-dismiss="modal"></i>
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                            <form action="/action_page.php">
-                                <div class="form-group">
-                                    <label for="email">Email :</label>
-                                    <input type="email" class="form-control" id="email">
-                                </div>
-                                <div class="form-group">
-                                    <label for="pwd">Mot de passe:</label>
-                                    <input type="password" class="form-control" id="pwd">
-                                </div>
-                                <div class="form-group d-flex justify-content-around">
-                                    <a href="#">Mot de passe oublié</a>
-                                    <a href="#">Créer un compte</a>
+  <header>
+    <div id="top-nav" class="<?php if($page=='accueil'){echo 'd-none d-md-block';} else{echo 'd-none';}?> ">
+      <div class="container">
+        <ul class="nav d-none d-sm-flex justify-content-end ">
+          <li class="nav-item">
+            <span>|</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <span>|</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel:00000000000"><i class="fas fa-phone-alt"></i> 02 97 50 18 62</a>
+          </li>
+          <li class="nav-item" data-toggle="modal" data-target="#myModal">
+            <span>| <i class="fas fa-scroll"></i> Suivre mon projet |</span>
+          </li>
+        </ul>
+      </div>
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <i class="far fa-times-circle m-2 text-right" data-dismiss="modal"></i>
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="email">Email :</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Mot de passe:</label>
+                  <input type="password" class="form-control" id="pwd">
+                </div>
+                <div class="form-group d-flex justify-content-around">
+                  <a href="#">Mot de passe oublié</a>
+                  <a href="#">Créer un compte</a>
                                 </div>
                                 <button type="submit" class="btn btn-primary text-center">SE CONNECTER</button>
                             </form>
@@ -83,44 +83,65 @@ $current=basename($path);
                 </div>
             </div>
         </div>
-        <div class="container-fluid d-flex align-items-end <?php if($page=='accueil'){echo 'accueil';} else{echo 'fixed-top';}?>"
-            id="header-main-nav">
-            <div class="<?php if($page=='accueil'){echo 'container';} else{echo 'container-fluid nav-fuschia';} ?>">
-                <nav class="navbar navbar-expand-md navbar-dark">
-                    <a class="navbar-brand d-flex" href="accueil.php">
-                        <img src="../images/simply-home-logo.png" alt="logo">
-                        <div>
-                            <p class="mb-0 mt-1">Simply Home</p>
-                            <p class="mb-0">Constructeur de vie</p>
-                        </div>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                        <ul class="navbar-nav align-items-end m-2 justify-content-around">
-                            <li class="nav-item">
-                                <a class="nav-link <?php if($current == 'accueil.php'){ echo 'current-page'; } ?>"
-                                    href=" accueil.php">Accueil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link <?php if($current =='apropos.php'){ echo 'current-page'; } ?>"
-                                    href=" apropos.php">A
-                                    propos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link <?php if($current =='nosmaisons.php'){ echo 'current-page'; } ?>"
-                                    href=" nosmaisons.php">Nos Maisons</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link <?php if($current =='contact.php'){ echo 'current-page'; } ?>"
-                                    href=" contact.php">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+      </div>
+    </div>
+    <div
+      class="container-fluid d-flex align-items-end <?php if($page=='accueil'){echo 'accueil';} else{echo 'fixed-top';}?>"
+      id="header-main-nav">
+      <div class="<?php if($page=='accueil'){echo 'container';} else{echo 'container-fluid nav-fuschia';} ?>">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a class="navbar-brand d-flex" href="accueil.php">
+            <img src="../images/simply-home-logo.png" alt="logo">
+            <div>
+              <p class="mb-0 mt-1">Simply Home</p>
+              <p class="mb-0">Agence d'Auray</p>
             </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav align-items-end m-2 justify-content-around">
+              <li class="nav-item">
+                <a class="nav-link <?php if($current == 'accueil.php'){ echo 'current-page'; } ?>"
+                  href=" accueil.php">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link <?php if($current =='apropos.php'){ echo 'current-page'; } ?>" href=" apropos.php">A
+                  propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link <?php if($current =='nosmaisons.php'){ echo 'current-page'; } ?>"
+                  href=" nosmaisons.php">Nos Maisons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link <?php if($current =='contact.php'){ echo 'current-page'; } ?>"
+                  href=" contact.php">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div id="contact-us"
+      class="d-flex flex-column align-items-end <?php if($page=='accueil'){echo 'contactUs';} else{echo 'contUs';}?>">
+      <button type="button" class="btn mb-1 d-flex align-items-center" id="phone">
+        <i class="fas fa-phone-alt"></i><a href="tel:00000000000" class="ml-3">02 97 50 18 62</a>
+      </button>
+      <button type="button" class="btn" id="emailButton"><i class="fas fa-envelope" data-toggle="modal"
+          data-target="#modal-contact"></i></button>
+    </div>
+    <div class="modal" id="modal-contact">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <i class="far fa-times-circle m-2 text-right" data-dismiss="modal"></i>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="nom">Nom :</label>
+              <input type="text" class="form-control" id="nom">
+           </div>
         </div>
         <div id="contact-us"
             class="d-flex flex-column align-items-end <?php if($page=='accueil'){echo 'contactUs';} else{echo 'contUs';}?>">
@@ -155,4 +176,7 @@ $current=basename($path);
                 </div>
             </div>
         </div>
-    </header>
+      </div>
+    </div>
+  </div>
+  </header>
