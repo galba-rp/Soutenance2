@@ -4,19 +4,19 @@
     <div class="container d-flex justify-content-between p-lg-5 p-md-1" id="footer-main">
       <div class="adresse text-center">
         <i class="fas fa-map-marker-alt"></i>
-        <p class="bold mt-2 mb-0">Simply Home</p>
-        <p class="bold mt-0 mb-0">15 rue des Oliviers</p>
-        <p class="bold">16100 ANGOULEME</p>
+        <p class="mt-2 mb-0">Simply Home</p>
+        <p class="mt-0 mb-0">14 rue des rossignols</p>
+        <p>56400 AURAY</p>
         <p>
-          <a href="tel:00000000000" class="bold mt-lg-3 mt-md-1">02 57 87 71 85</a>
+          <a href="tel:00000000000" class="mt-lg-3 mt-md-1">02 97 50 18 62</a>
         </p>
       </div>
       <div id="footer-black" class="d-flex flex-column justify-content-around align-items-center">
         <div id="black-top" class="d-flex justify-content-center align-items-center">
           <img src="../images/simply-home-logo.png" alt="logo">
           <div class="text-left">
-            <p class="bold mb-0">Simply Home</p>
-            <p class="bold">Constructeur de vie</p>
+            <p class="mb-0">Simply Home</p>
+            <p> Agence immobilière</p>
           </div>
         </div>
         <div id="black-social">
@@ -38,10 +38,10 @@
       </div>
       <div class="adresse text-center mt-1" id="inscription">
         <i class="far fa-paper-plane"></i>
-        <p class="bold mt-2 mb-0">Inscription</p>
-        <p class="bold mt-0 mb-0">a la Newsletter</p>
+        <p class="mt-2 mb-0">Inscription</p>
+        <p class="mt-0 mb-0">a la Newsletter</p>
         <p>
-          <button type="button" class="bold px- lg-5 px-md-2 py-2 mt-3">Je m'incris</button>
+          <button type="button" class="px- lg-5 px-md-2 py-2 mt-3">Je m'incris</button>
         </p>
       </div>
     </div>
