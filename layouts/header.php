@@ -49,7 +49,7 @@ $current=basename($path);
             <span>|</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="tel:00000000000"><i class="fas fa-phone-alt"></i> 02 57 87 71 85</a>
+            <a class="nav-link" href="tel:00000000000"><i class="fas fa-phone-alt"></i> 02 97 50 18 62</a>
           </li>
           <li class="nav-item" data-toggle="modal" data-target="#myModal">
             <span>| <i class="fas fa-scroll"></i> Suivre mon projet |</span>
@@ -92,7 +92,7 @@ $current=basename($path);
             <img src="../images/simply-home-logo.png" alt="logo">
             <div>
               <p class="mb-0 mt-1">Simply Home</p>
-              <p class="mb-0">Constructeur de vie</p>
+              <p class="mb-0">Agence d'Auray</p>
             </div>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -124,7 +124,7 @@ $current=basename($path);
     <div id="contact-us"
       class="d-flex flex-column align-items-end <?php if($page=='accueil'){echo 'contactUs';} else{echo 'contUs';}?>">
       <button type="button" class="btn mb-1 d-flex align-items-center" id="phone">
-        <i class="fas fa-phone-alt"></i><a href="tel:00000000000" class="ml-3">02 57 87 71 85</a>
+        <i class="fas fa-phone-alt"></i><a href="tel:00000000000" class="ml-3">02 97 50 18 62</a>
       </button>
       <button type="button" class="btn" id="emailButton"><i class="fas fa-envelope" data-toggle="modal"
           data-target="#modal-contact"></i></button>
