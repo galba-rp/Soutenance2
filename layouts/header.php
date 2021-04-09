@@ -2,6 +2,7 @@
 /* Récupération de l'adresse de page passée dans URL*/
 $path='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 $current=basename($path);
+var_dump(str_contains($path, "maison"));
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -26,6 +27,7 @@ $current=basename($path);
 </head>
 
 <body class="conatiner-fluid">
+
   <header>
     <div id="top-nav" class="<?php if($page=='accueil'){echo 'd-none d-md-block';} else{echo 'd-none';}?> ">
       <div class="container">
@@ -179,3 +181,4 @@ $current=basename($path);
       </div>
     </div>
   </header>
+
