@@ -26,7 +26,7 @@ include('../layouts/header.php') ?> <main id="apropos" class="pad-top">
                     arcu dignissim. Maecenas id felis euismod, sodales ante eget, varius lacus. Nullam felis turpis,
                     iaculis ut quam sed, auctor porttitor diam. Integer ipsum dui, semper ac auctor et, scelerisque sed
                     arcu. </p>
-                <p> * Le prix indiqué [ne] comprend [pas] les honoraires à la charge de l'acheteur</p>
+                <p class="small-print"> * Le prix indiqué [ne] comprend [pas] les honoraires à la charge de l'acheteur</p>
             </div>
         </div>
     </section>
