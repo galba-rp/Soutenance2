@@ -2,7 +2,6 @@
 /* Récupération de l'adresse de page passée dans URL*/
 $path='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 $current=basename($path);
-var_dump(str_contains($path, "maison"));
 ?>
 <!DOCTYPE html>
 <html lang="fr">
