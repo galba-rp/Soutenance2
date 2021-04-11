@@ -177,7 +177,7 @@ include('../layouts/header.php') ?> <main id="nosMaisons" class="pad-top">
             </div>
             <div class="card">
                 <a href="11.php" class="text-left">
-                    <img class="card-img-top" src="../images/actuel_4_chambres.jpg" alt="Card image">
+                    <img class="card-img-top" src="../images/vannes11.jpg" alt="Card image">
                     <div class="card-body">
                         <h3 class="card-title">ACTUAL </h3><span> - 3 Chambres</span>
                         <p class="card-title mb-0">87m²</p>
@@ -190,7 +190,7 @@ include('../layouts/header.php') ?> <main id="nosMaisons" class="pad-top">
             </div>
             <div class="card">
                 <a href="12.php" class="text-left">
-                    <img class="card-img-top" src="../images/actuel_4_chambres.jpg" alt="Card image">
+                    <img class="card-img-top" src="../images/vannes12.jpg" alt="Card image">
                     <div class="card-body">
                         <h3 class="card-title">ACTUAL </h3><span> - 4 Chambres</span>
                         <p class="card-title mb-0">108m²</p>
@@ -204,7 +204,7 @@ include('../layouts/header.php') ?> <main id="nosMaisons" class="pad-top">
             </div>
             <div class="card">
                 <a href="13.php" class="text-left">
-                    <img class="card-img-top" src="../images/adonis_4_chambres.jpg" alt="Card image">
+                    <img class="card-img-top" src="../images/vannes13.jpg" alt="Card image">
                     <div class="card-body">
                         <h3 class="card-title">ADONIS </h3><span> - '3' Chambres</span>
                         <p class="card-title mb-0">125m²</p>
@@ -218,7 +218,7 @@ include('../layouts/header.php') ?> <main id="nosMaisons" class="pad-top">
             </div>
             <div class="card">
                 <a href="14.php" class="text-left">
-                    <img class="card-img-top" src="../images/alpha_5_chambres.jpg" alt="Card image">
+                    <img class="card-img-top" src="../images/vannes14.jpg" alt="Card image">
                     <div class="card-body">
                         <h3 class="card-title">ALPHA </h3><span> - 5 Chambres</span>
                         <p class="card-title mb-0">177m²</p>
@@ -232,10 +232,10 @@ include('../layouts/header.php') ?> <main id="nosMaisons" class="pad-top">
             </div>
             <div class="card">
                 <a href="15.php" class="text-left">
-                    <img class="card-img-top" src="../images/ambroise_4_chambres.jpg" alt="Card image">
+                    <img class="card-img-top" src="../images/vannes15.jpg" alt="Card image">
                     <div class="card-body">
                         <h3 class="card-title">AMBROISE </h3><span> - 4 Chambres</span>
-                        <p class="card-title mb-0">117m²</p>
+                        <p class="card-title mb-0">83m²</p>
                         <p class="card-text description">Maison contemporaine à étage de 117m² environ. Au RDC, belle
                             pièce de vie
                             de 49m², 1 grande chambre avec salle de bains, cellier. A l'étage, 3 chambres, salle de
