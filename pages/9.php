@@ -3,27 +3,32 @@
 include('../layouts/header.php') ?><html><body>
 <main id="apropos" class="pad-top">
     <section class="container">
-        <h1 class="section-header">maison / villa 4 pi&egrave;ces &agrave; Questembert</h1>
+        <h1 class="section-header">maison / villa 10 pi&egrave;ces &agrave; Questembert</h1>
         <div class="d-flex" id="secion-ad">
-            <img src="../images/05a64dkwsr5ozvdrfjq15j8k0cg3jx0hhdwkgqj8l.webp" alt="maison" class="img-fluid mr-3">
+            <img src="../images/1q4lscl6bu8mrg77n4ufcoaods86xvbgvgyswktts.webp" alt="maison" class="img-fluid mr-3">
             <div class="d-flex flex-column" id="single-ad-description">
                 <div class="d-flex justify-content-beetween">
                     <p><img src="../images/meters.png" class="img-fluid" alt="surface"> 100 m&sup2;</p>
                     <p><img src="../images/localisation.png" class="img-fluid" alt="surface">Questembert</p>
-                    <p><img src="../images/price.png" class="img-fluid" alt="surface">220 500 &euro;</p>
-                    <p><img src="../images/energy.png" class="img-fluid" alt="surface">N/A</p>
-                    <p><img src="../images/calendar.png" class="img-fluid" alt="annee">N/A</p>
+                    <p><img src="../images/price.png" class="img-fluid" alt="surface">568 000 &euro;</p>
+                    <p><img src="../images/energy.png" class="img-fluid" alt="surface">E</p>
+                    <p><img src="../images/calendar.png" class="img-fluid" alt="surface">1830</p>
                 </div>
-                <p>Exclusivit&eacute;
- Orpi: maison r&eacute;cente de 109 m&sup2; sur sous-sol complet, situ&eacute;e &agrave; seulement
- 5 min &agrave; pied du centre ville et du coll&egrave;ge / lyc&eacute;e.. Elle se compose au
- rez-de-chauss&eacute;e d'un salon/s&eacute;jour, d'une cuisine A/E ouverte, une 
-chambre, un d&eacute;gagement, et une salle d'eau avec WC.. A l'&eacute;tage, une 
-mezzanine, deux chambres, une salle d'eau et un WC. Le tout sur un 
-terrain de 205 m&sup2; avec terrasse et garage.. Locataire en place.. 220500 
-euros (210000 euros Hors Honoraires) - Honoraires: 5 % TTC &agrave; la charge 
-de l'acqu&eacute;reur inclus.</p>
-                <p> * Le prix indiqué comprend les honoraires à la charge de l'acheteur</p>
+                <p>Dans
+ un parc sans vis &agrave; vis, de plus de 5000 m&sup2; avec tennis et piscine, un 
+splendide ensemble de b&acirc;timent en pierre offrant un tr&egrave;s beau potentiel.
+ Activit&eacute;s de g&icirc;tes et chambres d'h&ocirc;tes possible, mais aussi de 
+r&eacute;sidence principale ou secondaire. Vous appr&eacute;cierez une &eacute;poustouflante 
+pi&egrave;ce de vie plus de 110 m&sup2;, 4 chambres dot&eacute;es chacune de sa salle de 
+bain avec WC. Possibilit&eacute; 7 &agrave; 10 chambres. Luminosit&eacute; et calme 
+qualifient cette maison, qui attend une nouvelle famille. Expos&eacute;e sud et
+ donnant sur un parc arbor&eacute; d'arbres centenaires, cette propri&eacute;t&eacute; rare &agrave;
+ Questembert, a tout pour vous s&eacute;duire. La maison principale offre plus 
+de 300 m&sup2; habitable, la maison secondaire &agrave; restaurer mais d&eacute;j&agrave; 
+raccord&eacute;e peut offrir 100 m&sup2;. Vie de plain pied possible. Un appartement
+ avec entr&eacute;e ind&eacute;pendante est d&eacute;j&agrave; int&eacute;gr&eacute; &agrave; la maison principale. Coup 
+de coeur assur&eacute; !</p>
+                <p> * Le prix indiqué ne comprend pas les honoraires à la charge de l'acheteur</p>
             </div>
         </div>
     </section>
