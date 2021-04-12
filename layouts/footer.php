@@ -5,7 +5,7 @@
       <div class="adresse text-center">
         <i class="fas fa-map-marker-alt"></i>
         <p class="mt-2 mb-0">Simply Home</p>
-        <p class="mt-0 mb-0">14 rue des rossignols</p>
+        <p class="mt-0 mb-0">14, rue des rossignols</p>
         <p>56400 AURAY</p>
         <p>
           <a href="tel:00000000000" class="mt-lg-3 mt-md-1">02 97 50 18 62</a>
