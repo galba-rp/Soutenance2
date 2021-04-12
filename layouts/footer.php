@@ -4,9 +4,11 @@
     <div class="container d-flex justify-content-between p-lg-5 p-md-1" id="footer-main">
       <div class="adresse text-center">
         <i class="fas fa-map-marker-alt"></i>
-        <p class="bold mt-2 mb-0">Simply Home</p>
-        <p class="bold mt-0 mb-0">15 rue des Oliviers</p>
-        <p class="bold">16100 ANGOULEME</p>
+
+        <p class="mt-2 mb-0">Simply Home</p>
+        <p class="mt-0 mb-0">14, rue des rossignols</p>
+        <p>56400 AURAY</p>
+
         <p>
           <a href="tel:00000000000" class="bold mt-lg-3 mt-md-1">02 57 87 71 85</a>
         </p>
