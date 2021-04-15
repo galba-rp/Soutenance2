@@ -8,7 +8,7 @@ include('../layouts/header.php') ?> <main id="apropos" class="pad-top">
             <div class="d-flex flex-column" id="single-ad-description">
                 <div class="d-flex justify-content-beetween">
                     <p><img src="../images/meters.png" class="img-fluid" alt="surface"> 160 m²</p>
-                    <p><img src="../images/localisation.png" class="img-fluid" alt="surface"> VVannes 56000</p>
+                    <p><img src="../images/localisation.png" class="img-fluid" alt="surface"> Vannes 56000</p>
                     <p><img src="../images/price.png" class="img-fluid" alt="surface"> 450 000 €*</p>
                     <p><img src="../images/energy.png" class="img-fluid" alt="surface">C</p>
                     <p><img src="../images/calendar.png" class="img-fluid" alt="surface"> 1995</p>
